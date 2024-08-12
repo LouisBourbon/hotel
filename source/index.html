@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hotel</title>
+</head>
+<body class="wrapper">
+  <main class="page">
+    <h1 class="page__title">Номера и цены</h1>
+    <ul class="page__list list-none">
+      <li class="page__item">
+          <div class="page__inner">
+            <a  class="page__link" href="#">
+              <div class="page__discount">
+                <p class="discount__desc">Гарантия лучшей цены!</p>
+              </div>
+              <h2>Представительский люкс</h2> 
+            </a>
+            <p class="page__content">Эксклюзивный номер с панорамным видом на центр города Москвы</p>
+          </div>
+            <div class="page__reserv">
+              <div>
+                <p class="page__desc">Цена за сутки</p>
+                <p class="page__price">от <span class="price">  7 900  </span> <span class="ruble"> ₽</span></p>
+              </div>
+              <button class="page__button">Забронировать</button>
+            </div>
+            <div class=".page__payment payment payment--opened">
+              <p class=".payment__desc">Номер зарезервирован</p>
+              <p class=".payment__desc">Перейти к 
+                <a class=".payment__link" href="#">оплате</a>
+              </p>
+            </div>
+        <picture>
+          <source media="(min-width: 1280px)" srcset="img/luxury-desktop.jpg" width="372" height="372">
+          <source media="(min-width: 768px)" srcset="img/luxury-tablet.jpg" width="336" height="420">
+          <img src="img/luxury-mobile.jpg" width="288" height="347" alt="Представительский люкс">
+        </picture>
+      </li>
+      <li class="page__item">
+        <div class="page__inner">
+          <a  class="page__link" href="#">
+            <div class="page__discount">
+              <p class="discount__desc">Гарантия лучшей цены!</p>
+            </div>
+            <h2>Дуплекс</h2> 
+          </a>
+          <p class="page__content">Просторный двухкомнатный номер с шикарным видом на парк</p>
+        </div>
+        <div class="page__reserv">
+          <div>
+            <p class="page__desc">Цена за сутки</p>
+            <p class="page__price">от <span class="price">  7 900  </span> <span class="ruble"> ₽</span></p>
+          </div>
+          <button class="page__button">Забронировать</button>
+        </div>
+        <div class=".page__payment payment payment--opened">
+          <p class=".payment__desc">Номер зарезервирован</p>
+          <p class=".payment__desc">Перейти к 
+            <a class=".payment__link" href="#">оплате</a>
+          </p>
+        </div>
+        <picture>
+          <source media="(min-width: 1280px)" srcset="img/duplex-desktop.jpg" width="372" height="372">
+          <source media="(min-width: 768px)" srcset="img/duplex-tablet.jpg" width="336" height="420">
+          <img src="img/duplex-mobile.jpg" width="288" height="347" alt="Представительский люкс">
+        </picture>
+      </li>
+      <li class="page__item">
+        <div class="page__inner">
+          <a  class="page__link" href="#">
+            <div class="page__discount">
+              <p class="discount__desc">Гарантия лучшей цены!</p>
+            </div>
+            <h2>Бизнес-люкс</h2> 
+          </a>
+          <p class="page__content">Трёхкомнатный номер с панорамным видом на Москва-реку</p>
+        </div>
+          <div class="page__reserv">
+            <div>
+              <p class="page__desc">Цена за сутки</p>
+              <p class="page__price">от <span class="price">  7 900  </span> <span class="ruble"> ₽</span></p>
+            </div>
+            <button class="page__button">Забронировать</button>
+          </div>
+          <div class=".page__payment payment payment--opened">
+            <p class=".payment__desc">Номер зарезервирован</p>
+            <p class=".payment__desc">Перейти к 
+              <a class=".payment__link" href="#">оплате</a>
+            </p>
+          </div>
+        <picture>
+          <source media="(min-width: 1280px)" srcset="img/business-desktop.jpg" width="372" height="372">
+          <source media="(min-width: 768px)" srcset="img/business-tablet.jpg" width="336" height="420">
+          <img src="img/business-mobile.jpg" width="288" height="347" alt="Представительский люкс">
+        </picture>
+      </li>
+    </ul>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
